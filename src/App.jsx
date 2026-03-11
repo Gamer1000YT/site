@@ -23,10 +23,6 @@ function App() {
           <div className="glass-label">Centrul Vechi</div>
           <img src="https://hello-hotels-bucuresti.continentalhotels.ro/wp-content/uploads/sites/9/2020/09/16-9-38329081-.jpg"></img>
         </div>
-        <div className="item medium">
-          <h3>Minimalism Socialist</h3>
-          <p>Contrastul brutalist dintre Casa Poporului și noile hub-uri tehnologice.</p>
-        </div>
         
         <div className="">
 
