@@ -37,9 +37,6 @@ function App() {
         </div>
       </section>
 
-      <footer className="modern-footer">
-        <p>Proiect creat în 2026. Fără framework-uri, doar stil.</p>
-      </footer>
     </div>
   )
 }
