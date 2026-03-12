@@ -1,7 +1,7 @@
 export default function Explore() {
   const spots = [
-    { title: "Ateneul Român", cat: "Cultură", img: "https://images.unsplash.com/photo-1629116740913-912f2759885e" },
-    { title: "Cartierul Cotroceni", cat: "Arhitectură", img: "https://images.unsplash.com/photo-1555990116-60805ea91054" },
+    { title: "Ateneul Român", cat: "Cultură", img: "https://fge-strapi.s3.eu-central-1.amazonaws.com/img_events_harta_locurilor_5887e3e225.jpg" },
+    { title: "Cartierul Cotroceni", cat: "Arhitectură", img: "https://umblu-teleleu.ro/palatul-primaverii/1-7/" },
     { title: "Palatul Primăverii", cat: "Istorie", img: "https://images.unsplash.com/photo-1596128333423-41710b754602" }
   ];
 
