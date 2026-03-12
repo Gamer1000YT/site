@@ -1,40 +1,34 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import Home from './pages/Home';
+import Explore from './pages/Explore';
+import History from './pages/History';
+import './App.css';
 
 function App() {
   return (
-    <div className="site-wrapper">
-      <nav className="navbar">
-        <div className="logo">DESPRE BUCUREȘTI<span></span></div>
-        <div className="nav-links">
-          <a href="#">Arhitectură</a>
-          <a href="#">Lifestyle</a>
-          <a href="#">Evenimente</a>
-        </div>
-      </nav>
+    <Router>
+      <div className="site-wrapper">
+        <nav className="navbar">
+          <Link to="/" className="logo">DESPRE BUCURESTI<span>.</span>VERCEL</Link>
+          <div className="nav-links">
+            <Link to="/">Acasa</Link>
+            <Link to="/explore">Imagini</Link>
+            <Link to="/history">Istoria</Link>
+          </div>
+        </nav>
 
-      <header className="main-header">
-        <div className="accent-line"></div>
-        <h1 className="glitch-text">Urban<span>Vibe</span></h1>
-        <p className="subtitle">Bucureștiul nu este un oraș, este o stare de spirit.</p>
-      </header>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/history" element={<History />} />
+        </Routes>
 
-      <section className="bento-grid">
-        <div className="item large image-1">
-          <div className="glass-label">Centrul Vechi</div>
-          <img src="https://hello-hotels-bucuresti.continentalhotels.ro/wp-content/uploads/sites/9/2020/09/16-9-38329081-.jpg"></img>
-        </div>
-        
-        <div className="">
-
-        </div>
-        <div className="item tall image-3">
-            <div className="glass-label">Ateneul Român</div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifSczjnO0ZZOURv_BbsOR6y5JXRmhifcIfg&s"></img>
-        </div>
-      </section>
-
-    </div>
-  )
+        <footer className="modern-footer">
+          <div className="footer-line"></div>
+        </footer>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;

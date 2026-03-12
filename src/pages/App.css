@@ -1,0 +1,170 @@
+/* Stiluri Pagini Noi */
+.page-fade-in {
+  padding: 4rem 5%;
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.subtitle {
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Timeline Style */
+.timeline-container {
+  margin-top: 4rem;
+  border-left: 1px solid var(--border);
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.35rem;
+  top: 0.5rem;
+  width: 10px;
+  height: 10px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+.year {
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--accent);
+  display: block;
+}
+
+/* Explore Cards */
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.explore-card {
+  height: 450px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid var(--border);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.explore-card:hover {
+  transform: scale(1.02);
+  border-color: var(--accent);
+}
+
+.category {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.explore-card h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* Footer Line */
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+  margin-bottom: 2rem;
+}
+
+/* Update Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1.5rem 5%;
+    flex-direction: column; /* Stivuiește logo-ul și link-urile */
+    gap: 1rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+    font-size: 0.8rem;
+    background: var(--glass);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid var(--border);
+  }
+}
+
+/* Update Header */
+@media (max-width: 768px) {
+  .main-header {
+    padding: 3rem 5%;
+    text-align: center;
+  }
+
+  .accent-line {
+    margin: 0 auto 1rem auto;
+  }
+
+  h1 {
+    font-size: 3.5rem; /* Forțăm o dimensiune lizibilă pe mobil */
+  }
+}
+
+/* Update Bento Grid Responsiveness */
+@media (max-width: 768px) {
+  .bento-grid {
+    grid-template-columns: 1fr; /* O singură coloană */
+    grid-auto-rows: auto; /* Înălțime bazată pe conținut */
+    gap: 15px;
+  }
+
+  .item.large, 
+  .item.tall, 
+  .item.medium {
+    grid-column: span 1; /* Toate ocupă lățimea completă */
+    grid-row: span 1;
+    min-height: 250px;
+    padding: 1.5rem;
+  }
+
+  .item.small {
+    display: none; /* Putem ascunde elementele pur decorative pe mobil */
+  }
+
+  .outline-text {
+    font-size: 3rem; /* Textul de pe pagini secundare */
+  }
+}
+
+@media (max-width: 480px) {
+  .explore-grid {
+    grid-template-columns: 1fr; /* Forțăm o singură coloană pe ecrane foarte mici */
+  }
+
+  .explore-card {
+    height: 350px;
+  }
+
+  .timeline-container {
+    padding-left: 1.5rem;
+  }
+
+  .year {
+    font-size: 1.5rem;
+  }
+}
