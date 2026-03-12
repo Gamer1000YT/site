@@ -11,6 +11,7 @@ export default function Home() {
 
       <section className="bento-grid">
         <div className="item large image-1">
+            <img src="https://hello-hotels-bucuresti.continentalhotels.ro/wp-content/uploads/sites/9/2020/09/16-9-38329081-.jpg"></img>
           <div className="glass-label">Centrul Vechi</div>
         </div>
         <div className="item medium">
@@ -18,6 +19,7 @@ export default function Home() {
           <p>Contrastul brutalist dintre Casa Poporului și noile hub-uri tehnologice.</p>
         </div>
         <div className="item tall image-3">
+            <img src="https://thumbs.dreamstime.com/b/romanian-athenaeum-ateneul-roman-romanian-opera-house-bucuresti-romania-bucharest-romania-june-interior-ceiling-224615591.jpg"></img>
             <div className="glass-label">Ateneul Român</div>
         </div>
         <div className="item medium text-accent">

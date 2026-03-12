@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="site-wrapper">
         <nav className="navbar">
-          <Link to="/" className="logo">DESPRE BUCURESTI<span>.</span>VERCEL</Link>
+          <Link to="/" className="logo">DESPRE BUCURESTI<span>.</span></Link>
           <div className="nav-links">
             <Link to="/">Acasa</Link>
             <Link to="/explore">Imagini</Link>
