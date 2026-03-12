@@ -1,8 +1,8 @@
 export default function Explore() {
   const spots = [
     { title: "Ateneul Român", cat: "Cultură", img: "https://fge-strapi.s3.eu-central-1.amazonaws.com/img_events_harta_locurilor_5887e3e225.jpg" },
-    { title: "Cartierul Cotroceni", cat: "Arhitectură", img: "https://umblu-teleleu.ro/palatul-primaverii/1-7/" },
-    { title: "Palatul Primăverii", cat: "Istorie", img: "https://images.unsplash.com/photo-1596128333423-41710b754602" }
+    { title: "Cartierul Cotroceni", cat: "Arhitectură", img: "https://www.grandavenue.ro/wp-content/uploads/2018/12/imagine-princpala-cotroceni0.jpg" },
+    { title: "Palatul Primăverii", cat: "Istorie", img: "https://incotro.olx.ro/wp-content/uploads/2025/09/Palatul-Primaverii-din-Bucuresti.jpg" }
   ];
 
   return (
