@@ -10,8 +10,8 @@ export default function History() {
         <div className="timeline-item">
           <span className="year">1459</span>
           <div className="timeline-content">
-            <h3>Prima Atestare</h3>
-            <p>Documentul semnat de Vlad Țepeș care pune Bucureștiul pe hartă.</p>
+            <h3>Prima Mentiune</h3>
+            <p>Prima mentiune a localitatii apare in 1459, in timpul celei de-a doua domnii a lui Vlad Tepes.</p>
           </div>
         </div>
 
@@ -19,7 +19,7 @@ export default function History() {
           <span className="year">1862</span>
           <div className="timeline-content">
             <h3>Capitala României</h3>
-            <p>Bucureștiul devine oficial centrul politic al Principatelor Unite.</p>
+            <p>In anul 1862, Bucuresti devine capitala <a href="https://ro.wikipedia.org/wiki/Principatele_Unite_ale_Moldovei_%C8%99i_%C8%9A%C4%83rii_Rom%C3%A2ne%C8%99ti">Principatelor Unite.</a> De atunci a suferit schimbari continue, devenind centrul scenei artistice, culturale si mass-media romanesti.</p>
           </div>
         </div>
 

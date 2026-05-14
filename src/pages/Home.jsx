@@ -11,20 +11,20 @@ export default function Home() {
 
       <section className="bento-grid">
         <div className="item large image-1">
-            <img src="https://hello-hotels-bucuresti.continentalhotels.ro/wp-content/uploads/sites/9/2020/09/16-9-38329081-.jpg"></img>
-          <div className="glass-label">Centrul Vechi</div>
+            <img src="src/images/piatauniversitati.jpg"></img>
+          <div className="glass-label">Piata Universitatii</div>
         </div>
         <div className="item medium">
-          <h3>Minimalism Socialist</h3>
-          <p>Contrastul brutalist dintre Casa Poporului și noile hub-uri tehnologice.</p>
+          <h3>Micul Paris</h3>
+          <p>Arhitectura eleganta si atmosfera sa urbana i-au adus in <a href="https://ro.wikipedia.org/wiki/Belle_%C3%89poque">Belle Epoque</a> supranumele de "Micul Paris".</p>
         </div>
         <div className="item tall image-3">
             <img src="https://thumbs.dreamstime.com/b/romanian-athenaeum-ateneul-roman-romanian-opera-house-bucuresti-romania-bucharest-romania-june-interior-ceiling-224615591.jpg"></img>
             <div className="glass-label">Ateneul Român</div>
         </div>
         <div className="item medium text-accent">
-          <h3>Cafea de Specialitate</h3>
-          <p>Cea mai densă concentrație de cafenele premium.</p>
+          <h3>Prosperitate Economica</h3>
+          <p>Din punct de vedere economic, Bucuresti este cel mai prosper oras din Romania, si este unul dintre principalele centre industriale si noduri de transport in Europa.</p>
         </div>
       </section>
     </main>
