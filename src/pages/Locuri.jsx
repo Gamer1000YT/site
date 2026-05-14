@@ -21,7 +21,7 @@ export default function Locuri() {
 
                 <div className="timeline-item">
                     <span className="year">Palatul Primaverii</span>
-                    <h3>Palatul Primăverii, cunoscut și sub numele de Casa Ceaușescu,[1] este o clădire din București, situat în cartierul Primăverii. Din 2016 găzduiește un muzeu.</h3>
+                    <h3>Palatul Primăverii, cunoscut și sub numele de Casa Ceaușescu, este o clădire din București, situat în cartierul Primăverii. Din 2016 găzduiește un muzeu.</h3>
                 </div>
             </section>
         </main>
